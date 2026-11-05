@@ -1,699 +1,595 @@
 {
   "scriptVersion": 1,
-  "id": "ui-test-phone-v2",
-  "title": "捡手机",
-  "description": "仅用于界面测试，不含剧情",
-  "revision": 2,
+  "id": "tian-lei-zheng-peng-love",
+  "title": "镜头之外｜田雷与郑朋",
+  "description": "从艺人与经纪人的默契搭档，到彼此生活里不可替代的人。通过聊天、日程、备忘录、相册与社交动态，拼出一段慢热而坚定的双向奔赴。人物及情节均为虚构创作。",
+  "revision": 1,
   "phone": {
-    "owner": "机主",
-    "date": "2026-10-25",
-    "time": "09:41",
-    "battery": 94,
+    "owner": "田雷",
+    "date": "2026-11-05",
+    "time": "22:18",
+    "battery": 78,
     "network": "5G",
-    "wallpaper": "apple-wwdc26"
+    "wallpaper": "sage",
+    "theme": "light"
   },
   "installedApps": [
-    "appstore",
-    {
-      "id": "wechat",
-      "name": "微信",
-      "installed": true,
-      "visible": true,
-      "dock": false,
-      "folder": "",
-      "icon": ""
-    },
-    {
-      "id": "douyin",
-      "name": "抖音",
-      "installed": true,
-      "visible": true,
-      "dock": false,
-      "folder": "",
-      "icon": ""
-    },
     "phone",
     "messages",
     "contacts",
     "photos",
-    {
-      "id": "camera",
-      "name": "相机",
-      "installed": true,
-      "visible": true,
-      "dock": true,
-      "folder": "",
-      "icon": ""
-    },
-    "safari",
     "notes",
     "calendar",
     "mail",
-    "clock",
-    "reminders",
-    "files",
+    "wechat",
+    "weibo",
+    "douyin",
+    "safari",
     "music",
     "maps",
-    "weather",
-    "wallet",
-    "health",
-    "find",
-    "calculator",
-    "settings",
-    "qq",
-    "weibo",
-    "redbook",
-    "bilibili",
-    "alipay",
-    "taobao",
-    "netease",
-    "delivery",
-    "forum",
-    "whatsapp",
-    "instagram",
-    "tiktok",
-    "twitter",
-    "telegram",
-    "discord",
-    "youtube",
-    "line",
-    "snapchat",
-    "facebook",
-    "messenger",
-    "reddit",
-    "spotify",
-    "netflix",
-    "pinterest",
-    "threads",
-    "kakao"
+    "reminders",
+    "files"
   ],
   "contacts": [
     {
-      "id": "test-contact",
-      "name": "测试联系人",
+      "id": "zheng-peng",
+      "name": "郑朋",
       "phone": "",
-      "bio": "这是一条测试内容。"
+      "bio": "田雷的经纪人。做事周全、克制可靠，习惯把所有情绪藏在工作安排之后。"
+    },
+    {
+      "id": "xiao-yu",
+      "name": "小雨",
+      "phone": "",
+      "bio": "工作室助理，消息灵通，最早察觉两人关系变化的人。"
+    },
+    {
+      "id": "lin-director",
+      "name": "林导",
+      "phone": "",
+      "bio": "新剧导演，认可田雷的专业能力。"
+    },
+    {
+      "id": "fang-jing",
+      "name": "方静",
+      "phone": "",
+      "bio": "宣传负责人，负责剧组宣传与公开行程。"
     }
   ],
   "chats": [
     {
-      "id": "test-chat-messages",
-      "app": "messages",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-messages",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-wechat",
+      "id": "chat-zheng-private",
       "app": "wechat",
-      "title": "测试会话",
+      "title": "郑朋",
       "participants": [
         "owner",
-        "test-contact"
+        "zheng-peng"
       ],
       "messages": [
         {
-          "id": "test-message-wechat",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-qq",
-      "app": "qq",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-qq",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-whatsapp",
-      "app": "whatsapp",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-whatsapp",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-telegram",
-      "app": "telegram",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-telegram",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-discord",
-      "app": "discord",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-discord",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-line",
-      "app": "line",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-line",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-messenger",
-      "app": "messenger",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-messenger",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-kakao",
-      "app": "kakao",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-kakao",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
+          "id": "wx-zheng-01",
+          "body": "到了给我发消息。今天收工晚，别自己开车，我让司机在侧门等你。",
+          "senderId": "zheng-peng",
+          "time": "2026-09-03 23:16"
         },
         {
-          "id": "test-reply-kakao",
-          "body": "这是一条测试回复。",
-          "senderId": "owner"
+          "id": "wx-zheng-02",
+          "body": "知道了郑经理。你也早点回去，明天不是还要陪我去试装吗？",
+          "senderId": "owner",
+          "time": "2026-09-03 23:18"
+        },
+        {
+          "id": "wx-zheng-03",
+          "body": "嗯，我在。你先休息，明天的事我来处理。",
+          "senderId": "zheng-peng",
+          "time": "2026-09-03 23:19"
+        },
+        {
+          "id": "wx-zheng-04",
+          "body": "郑朋，你是不是把我的胃药也放进包里了？",
+          "senderId": "owner",
+          "time": "2026-09-18 21:07"
+        },
+        {
+          "id": "wx-zheng-05",
+          "body": "嗯。你上次胃疼还说没事，我不想再听你逞强。",
+          "senderId": "zheng-peng",
+          "time": "2026-09-18 21:08"
+        },
+        {
+          "id": "wx-zheng-06",
+          "body": "你记得比我自己还清楚。",
+          "senderId": "owner",
+          "time": "2026-09-18 21:10"
+        },
+        {
+          "id": "wx-zheng-07",
+          "body": "今天采访结束得很顺利。你没必要每次都等我到这么晚。",
+          "senderId": "owner",
+          "time": "2026-10-12 00:03"
+        },
+        {
+          "id": "wx-zheng-08",
+          "body": "不是因为工作才等。只是想确认你平安到家。",
+          "senderId": "zheng-peng",
+          "time": "2026-10-12 00:05"
+        },
+        {
+          "id": "wx-zheng-09",
+          "body": "这句话听起来不像经纪人会说的。",
+          "senderId": "owner",
+          "time": "2026-10-12 00:07"
+        },
+        {
+          "id": "wx-zheng-10",
+          "body": "那就先当作一个普通朋友说的。晚安，田雷。",
+          "senderId": "zheng-peng",
+          "time": "2026-10-12 00:09"
+        },
+        {
+          "id": "wx-zheng-11",
+          "body": "明天拍摄结束后，能不能别急着走？我有件和工作无关的事想和你说。",
+          "senderId": "owner",
+          "time": "2026-11-05 22:11"
+        },
+        {
+          "id": "wx-zheng-12",
+          "body": "好。我也有一句话，想了很久。",
+          "senderId": "zheng-peng",
+          "time": "2026-11-05 22:13"
+        }
+      ]
+    },
+    {
+      "id": "chat-assistant",
+      "app": "wechat",
+      "title": "小雨｜工作室",
+      "participants": [
+        "owner",
+        "xiao-yu",
+        "zheng-peng"
+      ],
+      "messages": [
+        {
+          "id": "wx-yu-01",
+          "body": "雷哥，明天九点妆发，十点半进棚。郑哥已经把车和早餐都安排好了。",
+          "senderId": "xiao-yu",
+          "time": "2026-11-04 20:30"
+        },
+        {
+          "id": "wx-yu-02",
+          "body": "他今天又忘记吃晚饭了。你提醒他一下，别总顾着我。",
+          "senderId": "owner",
+          "time": "2026-11-04 20:34"
+        },
+        {
+          "id": "wx-yu-03",
+          "body": "收到！不过郑哥刚刚问的也是你有没有吃饭。",
+          "senderId": "xiao-yu",
+          "time": "2026-11-04 20:36"
+        },
+        {
+          "id": "wx-yu-04",
+          "body": "你们两个能不能先关心一下自己，再互相关心对方……",
+          "senderId": "xiao-yu",
+          "time": "2026-11-04 20:38"
+        }
+      ]
+    },
+    {
+      "id": "chat-crew",
+      "app": "wechat",
+      "title": "新剧《长夜有光》剧组群",
+      "participants": [
+        "owner",
+        "zheng-peng",
+        "xiao-yu",
+        "lin-director",
+        "fang-jing"
+      ],
+      "messages": [
+        {
+          "id": "wx-crew-01",
+          "body": "明天最后一场夜戏，拍完大家辛苦了。",
+          "senderId": "lin-director",
+          "time": "2026-11-04 18:20"
+        },
+        {
+          "id": "wx-crew-02",
+          "body": "田雷明天的通告我已经确认，结束后留十分钟拍宣传照。",
+          "senderId": "zheng-peng",
+          "time": "2026-11-04 18:22"
+        },
+        {
+          "id": "wx-crew-03",
+          "body": "宣传照可以改到后天吗？今晚让大家早点收工。",
+          "senderId": "owner",
+          "time": "2026-11-04 18:24"
+        },
+        {
+          "id": "wx-crew-04",
+          "body": "可以，我来协调。你们先把戏拍好，其他的交给我。",
+          "senderId": "zheng-peng",
+          "time": "2026-11-04 18:26"
+        }
+      ]
+    },
+    {
+      "id": "chat-sms",
+      "app": "messages",
+      "title": "郑朋",
+      "participants": [
+        "owner",
+        "zheng-peng"
+      ],
+      "messages": [
+        {
+          "id": "sms-zheng-01",
+          "body": "车停在B2出口。外面下雨，记得带伞。",
+          "senderId": "zheng-peng",
+          "time": "2026-10-28 22:46"
+        },
+        {
+          "id": "sms-zheng-02",
+          "body": "看见你了。今天辛苦了。",
+          "senderId": "owner",
+          "time": "2026-10-28 22:48"
         }
       ]
     }
   ],
   "content": {
-    "phone": [
-      {
-        "id": "test-item-phone",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "contacts": [
-      {
-        "id": "test-item-contacts",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "photos": [
-      {
-        "id": "test-item-photos",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "camera": [
-      {
-        "id": "test-item-camera",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "safari": [
-      {
-        "id": "test-item-safari",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
     "notes": [
       {
-        "id": "test-item-notes",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "note-work-plan",
+        "title": "《长夜有光》最后一周安排",
+        "body": "11月5日：最后一场夜戏；11月6日：休息；11月7日：宣传拍摄。郑朋说这次会把所有行程压缩好，让我真正休息一天。",
+        "time": "2026-11-03 19:20",
+        "kind": "note",
+        "folder": "工作"
+      },
+      {
+        "id": "note-private-letter",
+        "title": "没发出去的那句话",
+        "body": "郑朋：这些年你替我挡过很多事，也记得我所有不重要的小习惯。我曾经以为那只是因为你是我的经纪人。后来才发现，我开始期待每天收工后的那条消息，开始在意你有没有好好吃饭，也开始希望未来的每一段路都有你。明天，我想亲口告诉你。",
+        "time": "2026-11-05 22:02",
+        "kind": "note",
+        "folder": "私人",
+        "hidden": true
       }
     ],
     "calendar": [
       {
-        "id": "test-item-calendar",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "cal-first-meeting",
+        "title": "第一次合作｜品牌短片",
+        "body": "2026年9月3日 · 第一次由郑朋独立负责田雷的行程。",
+        "time": "2026-09-03 09:00",
+        "kind": "event"
+      },
+      {
+        "id": "cal-night-shoot",
+        "title": "《长夜有光》夜戏",
+        "body": "2026年10月12日 · 收工后两人在片场外聊到凌晨。",
+        "time": "2026-10-12 20:00",
+        "kind": "event"
+      },
+      {
+        "id": "cal-last-scene",
+        "title": "《长夜有光》杀青",
+        "body": "2026年11月5日 · 最后一场戏，拍摄结束后留出私人谈话时间。",
+        "time": "2026-11-05 19:00",
+        "kind": "event"
       }
     ],
-    "mail": [
+    "photos": [
       {
-        "id": "test-item-mail",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "clock": [
+        "id": "photo-first-coffee",
+        "title": "片场第一杯热咖啡",
+        "body": "郑朋第一次记住田雷不加糖，只加一点燕麦奶。照片背面写着：以后别空腹喝咖啡。",
+        "time": "2026-09-03 08:42",
+        "kind": "image",
+        "folder": "日常"
+      },
       {
-        "id": "test-item-clock",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "reminders": [
+        "id": "photo-umbrella",
+        "title": "同一把伞",
+        "body": "10月28日收工时下雨，照片里两个人的肩膀都湿了一边。",
+        "time": "2026-10-28 22:50",
+        "kind": "image",
+        "folder": "日常"
+      },
       {
-        "id": "test-item-reminders",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "files": [
-      {
-        "id": "test-item-files",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "music": [
-      {
-        "id": "test-item-music",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "maps": [
-      {
-        "id": "test-item-maps",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "weather": [
-      {
-        "id": "test-item-weather",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "wallet": [
-      {
-        "id": "test-item-wallet",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "health": [
-      {
-        "id": "test-item-health",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "find": [
-      {
-        "id": "test-item-find",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "calculator": [
-      {
-        "id": "test-item-calculator",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "settings": [
-      {
-        "id": "test-item-settings",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "photo-polaroid",
+        "title": "杀青合照",
+        "body": "剧组散场后拍的拍立得。郑朋站在田雷身边，手里还拿着没来得及收起的通告单。",
+        "time": "2026-11-05 21:48",
+        "kind": "image",
+        "folder": "私人",
+        "hidden": true
       }
     ],
     "weibo": [
       {
-        "id": "test-item-weibo",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "redbook": [
+        "id": "weibo-post-01",
+        "title": "田雷",
+        "body": "《长夜有光》拍摄顺利，感谢每一位工作人员。也谢谢那个总能把一切安排妥当的人。",
+        "time": "2026-10-12 20:10",
+        "kind": "post",
+        "likes": 12840,
+        "comments": [
+          "期待新剧！",
+          "最后一句是在感谢谁呀？"
+        ]
+      },
       {
-        "id": "test-item-redbook",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "weibo-post-02",
+        "title": "田雷工作室",
+        "body": "《长夜有光》今日正式杀青。感谢剧组所有伙伴，期待与大家再次相见。",
+        "time": "2026-11-05 21:30",
+        "kind": "post",
+        "likes": 23600,
+        "comments": [
+          "杀青快乐！",
+          "辛苦啦，期待播出！"
+        ]
       }
     ],
     "douyin": [
       {
-        "id": "test-item-douyin",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "douyin-clip-01",
+        "title": "夜戏收工后的十秒",
+        "body": "田雷对着镜头说今天有人带了热汤。镜头外传来郑朋提醒他先穿外套的声音。",
+        "time": "2026-10-12 23:40",
+        "kind": "video",
+        "likes": 98500,
+        "comments": [
+          "声音好熟悉哈哈",
+          "被照顾得很好诶"
+        ]
       }
     ],
-    "bilibili": [
+    "mail": [
       {
-        "id": "test-item-bilibili",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "mail-schedule",
+        "title": "11月5日通告单（最终版）",
+        "body": "发件人：郑朋。已协调拍摄、采访与返程安排；最后一场戏后不再安排工作活动。",
+        "time": "2026-11-04 17:00",
+        "kind": "email",
+        "folder": "收件箱"
       }
     ],
-    "alipay": [
+    "phone": [
       {
-        "id": "test-item-alipay",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "taobao": [
-      {
-        "id": "test-item-taobao",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "netease": [
-      {
-        "id": "test-item-netease",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "delivery": [
-      {
-        "id": "test-item-delivery",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "forum": [
-      {
-        "id": "test-item-forum",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "instagram": [
-      {
-        "id": "test-item-instagram",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "tiktok": [
-      {
-        "id": "test-item-tiktok",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "twitter": [
-      {
-        "id": "test-item-twitter",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "youtube": [
-      {
-        "id": "test-item-youtube",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "snapchat": [
-      {
-        "id": "test-item-snapchat",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "facebook": [
-      {
-        "id": "test-item-facebook",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "reddit": [
-      {
-        "id": "test-item-reddit",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "spotify": [
-      {
-        "id": "test-item-spotify",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "netflix": [
-      {
-        "id": "test-item-netflix",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "pinterest": [
-      {
-        "id": "test-item-pinterest",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "threads": [
-      {
-        "id": "test-item-threads",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      },
-      {
-        "id": "test-threads-message-1",
-        "title": "测试会话1",
-        "body": "这是一条测试消息。",
-        "sender": "测试联系人1",
-        "folder": "私信"
-      },
-      {
-        "id": "test-threads-activity-1",
-        "title": "测试动态1",
-        "body": "这是一条测试回复动态。",
-        "sender": "测试用户1",
+        "id": "call-zheng-history",
+        "title": "郑朋",
+        "body": "最近通话：未接来电 1 次；通话记录备注：到家告诉我。",
+        "time": "2026-11-05 21:55",
+        "kind": "call",
         "meta": {
-          "activityType": "reply"
-        }
-      },
-      {
-        "id": "test-threads-message-2",
-        "title": "测试会话2",
-        "body": "这是一条测试消息。",
-        "sender": "测试联系人2",
-        "folder": "私信"
-      },
-      {
-        "id": "test-threads-activity-2",
-        "title": "测试动态2",
-        "body": "这是一条测试回复动态。",
-        "sender": "测试用户2",
-        "meta": {
-          "activityType": "reply"
-        }
-      },
-      {
-        "id": "test-threads-message-3",
-        "title": "测试会话3",
-        "body": "这是一条测试消息。",
-        "sender": "测试联系人3",
-        "folder": "私信"
-      },
-      {
-        "id": "test-threads-activity-3",
-        "title": "测试动态3",
-        "body": "这是一条测试回复动态。",
-        "sender": "测试用户3",
-        "meta": {
-          "activityType": "reply"
+          "phone": ""
         }
       }
     ],
-    "appstore": [
+    "reminders": [
       {
-        "id": "test-appstore",
-        "title": "测试内容",
-        "body": "这是一条测试内容。"
+        "id": "reminder-dinner",
+        "title": "提醒郑朋吃晚饭",
+        "body": "别只顾着安排别人的生活，也要照顾好自己。",
+        "time": "2026-11-05 18:00",
+        "kind": "reminder"
+      }
+    ],
+    "files": [
+      {
+        "id": "file-script",
+        "title": "《长夜有光》最终剧本.pdf",
+        "body": "工作文件。最后一页有郑朋手写的拍摄备注：田雷的夜戏不要连续安排。",
+        "time": "2026-11-02 16:30",
+        "kind": "file",
+        "folder": "工作"
       }
     ]
   },
-  "variables": {},
-  "events": [],
-  "tests": []
+  "variables": {
+    "relationship_stage": "默契搭档",
+    "confession_ready": false
+  },
+  "events": [
+    {
+      "id": "story-start",
+      "label": "故事开始",
+      "type": "start",
+      "actions": [
+        {
+          "type": "notification",
+          "key": "",
+          "value": "微信：郑朋发来一条消息"
+        }
+      ]
+    },
+    {
+      "id": "message-turning-point",
+      "label": "读到郑朋的深夜消息",
+      "event": "read",
+      "target": "wx-zheng-11",
+      "actions": [
+        {
+          "type": "unlock",
+          "key": "note-private-letter",
+          "value": true
+        },
+        {
+          "type": "unlock",
+          "key": "photo-polaroid",
+          "value": true
+        },
+        {
+          "type": "variable",
+          "key": "relationship_stage",
+          "value": "准备告白"
+        },
+        {
+          "type": "variable",
+          "key": "confession_ready",
+          "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "备忘录：一条私人笔记已解锁"
+        }
+      ]
+    },
+    {
+      "id": "read-private-letter",
+      "label": "读完未发送的告白",
+      "event": "read",
+      "target": "note-private-letter",
+      "next": [
+        "next-morning"
+      ],
+      "actions": [
+        {
+          "type": "date",
+          "key": "",
+          "value": "2026-11-06"
+        },
+        {
+          "type": "time",
+          "key": "",
+          "value": "08:30"
+        }
+      ]
+    },
+    {
+      "id": "next-morning",
+      "label": "第二天清晨",
+      "type": "delay",
+      "delayMs": 1000,
+      "actions": [
+        {
+          "type": "date",
+          "key": "",
+          "value": "2026-11-06"
+        },
+        {
+          "type": "time",
+          "key": "",
+          "value": "08:45"
+        },
+        {
+          "type": "call",
+          "key": "call-zheng",
+          "value": "郑朋"
+        }
+      ]
+    },
+    {
+      "id": "answer-zheng-call",
+      "label": "接听郑朋的电话",
+      "event": "callAnswered",
+      "target": "call-zheng",
+      "next": [
+        "relationship-choice"
+      ],
+      "actions": [
+        {
+          "type": "notification",
+          "key": "",
+          "value": "郑朋：今天不谈工作，只谈我们。"
+        }
+      ]
+    },
+    {
+      "id": "relationship-choice",
+      "label": "你决定怎样回应郑朋？",
+      "type": "choice",
+      "next": [
+        "ending-private",
+        "ending-public"
+      ]
+    },
+    {
+      "id": "ending-private",
+      "label": "确认关系，暂时低调",
+      "type": "ending",
+      "actions": [
+        {
+          "type": "ending",
+          "key": "",
+          "value": "双向奔赴：你们确认了彼此的心意，决定先把恋爱留在生活里。"
+        }
+      ]
+    },
+    {
+      "id": "ending-public",
+      "label": "确认关系，坦然面对未来",
+      "type": "ending",
+      "actions": [
+        {
+          "type": "ending",
+          "key": "",
+          "value": "并肩同行：你们确认关系，也约定等合适的时候坦然面对外界。"
+        }
+      ]
+    }
+  ],
+  "tests": [
+    {
+      "name": "双向奔赴结局",
+      "steps": [
+        {
+          "event": "read",
+          "target": "wx-zheng-11"
+        },
+        {
+          "event": "read",
+          "target": "note-private-letter"
+        },
+        {
+          "advanceMs": 1000
+        },
+        {
+          "event": "callAnswered",
+          "target": "call-zheng"
+        },
+        {
+          "choose": "ending-private"
+        }
+      ],
+      "ending": "双向奔赴：你们确认了彼此的心意，决定先把恋爱留在生活里。",
+      "expectUnlocked": [
+        "note-private-letter",
+        "photo-polaroid"
+      ]
+    },
+    {
+      "name": "并肩同行结局",
+      "steps": [
+        {
+          "event": "read",
+          "target": "wx-zheng-11"
+        },
+        {
+          "event": "read",
+          "target": "note-private-letter"
+        },
+        {
+          "advanceMs": 1000
+        },
+        {
+          "event": "callAnswered",
+          "target": "call-zheng"
+        },
+        {
+          "choose": "ending-public"
+        }
+      ],
+      "ending": "并肩同行：你们确认关系，也约定等合适的时候坦然面对外界。",
+      "expectUnlocked": [
+        "note-private-letter",
+        "photo-polaroid"
+      ]
+    }
+  ]
 }
